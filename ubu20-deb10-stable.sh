@@ -25,10 +25,10 @@ clear;clear;clear
 
 # // Banner
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "  Developer » MAZFARUKSTORE࿐${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Developer » XLSMARTLCSTORE࿐${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "  » This Will Quick Setup VPN Server On Your Server"
-echo -e "  Pembuat : ${green} MAZFARUK࿐® ${NC}"
-echo -e "  HAK CIPTA MAZFARUK࿐ ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
+echo -e "  Pembuat : ${green} XLSMARTLC࿐® ${NC}"
+echo -e "  HAK CIPTA XLSMARTLC࿐ ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 sleep 2
@@ -84,7 +84,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/Mazfarukstore/scvps/main/"
+    REPO="https://raw.githubusercontent.com/DnxTunnel/scvps/main/"
 
 ####
 start=$(date +%s)
@@ -271,7 +271,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/Mazfarukstore/scvps/main/Register"
+izinsc="https://raw.githubusercontent.com/DnxTunnel/scvps/main/Register"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -327,7 +327,7 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
 <b>Terimakasih sudah order ࿐</b>
 <code>━━━━━━━━━━━━━━━━━━━━━━━━━</code>
 <i>Automatic Notifications From Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/MAZ_FARUK"}]]}' 
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"https://t.me/XLSMARTLC"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
@@ -534,7 +534,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/Mazfarukstore/scvps/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/DnxTunnel/scvps/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
