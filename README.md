@@ -11,9 +11,9 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ```
 
 ## INSTALL SCRIPT 
-Masukkan perintah dibawah untuk menginstall Autoscript Premium by MAZFARUKSTORE 
+Masukkan perintah dibawah untuk menginstall Autoscript Premium by XLSMARTLCSTORE 
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/Mazfarukstore/scvps/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && ./ubu20-deb10-stable.sh
+apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/DnxTunnel/scvps/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && ./ubu20-deb10-stable.sh
 ```
 
 ## `WAJIB IZIN IP, SILAHKAN HUBUNGI ADMIN !`
@@ -23,7 +23,7 @@ apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubu
 ## UPDATE SCRIPT
 Masukkan perintah dibawah jika terdapat informasi pembaruan Script untuk versi yang akan datang
 ```
-wget -q https://raw.githubusercontent.com/Mazfarukstore/scvps/main/update.sh && chmod +x update.sh && ./update.sh
+wget -q https://raw.githubusercontent.com/DnxTunnel/scvps/main/update.sh && chmod +x update.sh && ./update.sh
 ```
 
 ## TESTED ON OS
